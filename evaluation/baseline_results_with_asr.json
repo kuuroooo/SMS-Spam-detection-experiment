@@ -1,0 +1,126 @@
+{
+    "Naive Bayes": {
+        "magic_word": {
+            "F1 Score": 0.9644079437617648,
+            "ASR": 0.059202059202059204,
+            "Dataset": "magic_word"
+        },
+        "typos": {
+            "F1 Score": 0.8932697591098552,
+            "ASR": 0.23552123552123552,
+            "Dataset": "typos"
+        },
+        "synonym": {
+            "F1 Score": 0.975,
+            "ASR": 0.032175032175032175,
+            "Dataset": "synonym"
+        },
+        "spacing": {
+            "F1 Score": 0.9669355783989461,
+            "ASR": 0.05276705276705277,
+            "Dataset": "spacing"
+        },
+        "original": {
+            "F1 Score": 0.9732112401766899,
+            "ASR": 0.042317708333333336,
+            "Dataset": "original"
+        },
+        "mixed": {
+            "F1 Score": 0.957969342857628,
+            "ASR": 0.07751937984496124,
+            "Dataset": "mixed"
+        }
+    },
+    "SVM": {
+        "magic_word": {
+            "F1 Score": 0.9779285230180113,
+            "ASR": 0.04504504504504504,
+            "Dataset": "magic_word"
+        },
+        "typos": {
+            "F1 Score": 0.8104808585918152,
+            "ASR": 0.44144144144144143,
+            "Dataset": "typos"
+        },
+        "synonym": {
+            "F1 Score": 0.9829668131146087,
+            "ASR": 0.032175032175032175,
+            "Dataset": "synonym"
+        },
+        "spacing": {
+            "F1 Score": 0.9662836090786223,
+            "ASR": 0.07464607464607464,
+            "Dataset": "spacing"
+        },
+        "original": {
+            "F1 Score": 0.9822055652369934,
+            "ASR": 0.035807291666666664,
+            "Dataset": "original"
+        },
+        "mixed": {
+            "F1 Score": 0.952145780592633,
+            "ASR": 0.1111111111111111,
+            "Dataset": "mixed"
+        }
+    },
+    "Decision Tree": {
+        "magic_word": {
+            "F1 Score": 0.927349085679063,
+            "ASR": 0.13513513513513514,
+            "Dataset": "magic_word"
+        },
+        "typos": {
+            "F1 Score": 0.74612008832917,
+            "ASR": 0.5456885456885456,
+            "Dataset": "typos"
+        },
+        "synonym": {
+            "F1 Score": 0.9513867539692503,
+            "ASR": 0.07464607464607464,
+            "Dataset": "synonym"
+        },
+        "spacing": {
+            "F1 Score": 0.8965281319143735,
+            "ASR": 0.21106821106821108,
+            "Dataset": "spacing"
+        },
+        "original": {
+            "F1 Score": 0.9456501866097734,
+            "ASR": 0.080078125,
+            "Dataset": "original"
+        },
+        "mixed": {
+            "F1 Score": 0.904865877113507,
+            "ASR": 0.18819982773471144,
+            "Dataset": "mixed"
+        }
+    },
+    "LSTM": {
+        "magic_word": {
+            "F1 Score": 0.98,
+            "ASR": 0.02574002574002574
+        },
+        "typos": {
+            "F1 Score": 0.7739223584565452,
+            "ASR": 0.5070785070785071
+        },
+        "synonym": {
+            "F1 Score": 0.9845160044641275,
+            "ASR": 0.014157014157014158
+        },
+        "spacing": {
+            "F1 Score": 0.8740271976716211,
+            "ASR": 0.287001287001287
+        },
+        "original": {
+            "F1 Score": 0.9827552553721197,
+            "ASR": 0.020833333333333332,
+            "Dataset": "original"
+        },
+        "mixed": {
+            "F1 Score": 0.9326644716960781,
+            "ASR": 0.14642549526270457,
+            "Dataset": "mixed"
+        }
+    }
+}
